@@ -25,13 +25,8 @@ const Index = () => {
 
   return (
     <Box>
-      <Flex bg="brand.800" p={8} alignItems="center" direction="column">
-        <Heading size="2xl" color="white" mb={4}>
-          Unbiased News
-        </Heading>
-        <Text fontSize="lg" color="gray.200" mb={6}>
-          Your daily dose of news from around the world.
-        </Text>
+      <Flex bg="gray.100" p={4} alignItems="center">
+        <Heading size="xl">Unbiased News</Heading>
         <Spacer />
         <Flex>
           <Input placeholder="Search articles..." mr={2} value={searchTerm} onChange={handleSearch} />
